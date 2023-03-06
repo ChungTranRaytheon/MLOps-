@@ -1,0 +1,15 @@
+{   //highlights relevant items on the extensions page
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "streetsidesoftware.code-spell-checker",
+        "shardulm94.trailing-spaces",
+        "ms-python.pylint",
+        "matangover.mypy",
+        "ms-python.isort",
+        "eamodio.gitlens",
+        "hashicorp.terraform",
+        "4ops.terraform",
+        "ms-azuretools.vscode-docker"
+    ]
+}

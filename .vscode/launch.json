@@ -1,0 +1,61 @@
+{
+    "editor.fontSize": 16,
+    "workbench.colorTheme":"Visual Studio Dark",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=130",
+    ],
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.formatting.blackArgs": [
+        "--line-length=130"
+    ],
+    //sort and format imports on vscode alphabetically and by type on the IDE
+    "isort.args": [
+        "--profile=black",
+        "-ns",
+        "__init__.py",
+        "-l",
+        "100"
+    ],
+    //error messages to remove on the IDE
+    "pylint.args": [
+        "--disable=C0301",
+        "--disable=C0114",
+        "--disable=C0115",
+        "--disable=C0116",
+        "--disable=C0103",
+        "--disable=W1201",
+        "--disable=W1202",
+        "--disable=W1203",
+    ],
+    "editor.tabSize": 4,
+    //stops checking of words for the following
+    "cSpell.words" : [
+        "Chung",
+        "Pytest"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    //list of folders to search for testing scripts.
+    "python.testing.pytestArgs": [
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./python_concepts",
+        "-p",
+        "*test.py"
+    ],
+    "[terraform]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.tabSize": 2, // optionally
+      },
+      "[terraform-vars]": {
+        "editor.tabSize": 2 // optionally
+      },
+}

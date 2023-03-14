@@ -13,7 +13,7 @@ $$ x^{i} = \begin{bmatrix}
    .\\
    .\\
    \end{bmatrix}
-$$<br>
+$$ <br>
 it follows that
 
 $$X = \begin{bmatrix} 

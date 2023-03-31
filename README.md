@@ -25,3 +25,5 @@ $$X = \begin{bmatrix}
    \end{bmatrix}
 $$
 
+![plot](optimal_linear_vector.png)
+
